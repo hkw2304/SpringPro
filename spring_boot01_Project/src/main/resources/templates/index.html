@@ -2,13 +2,37 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>메인 페이지</title>
+<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-	<h1>hello</h1>
-	<form action="insertTest" method="post">
-		id : <input type="text" name="testId">
-		<button type="submit">클릭</button>
+	<span class="teamTitle">문제 뿌셔뿌셔</span>
+	<form class="searchForm" action="searchPage" method="get">
+		<input type="text" name="search" placeholder="검색어를 입력하세요">
+		<button class="searchBtn" type="submit">검색</button>
 	</form>
+	<div class="user">
+		<span>감자님 환영합니다</span>
+		<br>
+		<div class="user_section2">
+			<span>마이페이지</span>
+			<span>로그아웃</span>
+		</div>
+	</div>
+	<div class = "classList">
+	<span onclick="location.href='korBook'">국어</span>
+	<span onclick="location.href='engBook'">영어</span>
+	<span onclick="location.href='mathBook'">수학</span>
+	</div>
+	<hr class="mainPageLine">
+	<h1 class="mainLogo">후에 이미지 자동전환하게 만들것!!!</h1>
+	<div class="sideInfo">
+	<h1>우리 사이트의 특징(해당정보가 자동으로 전환)</h1>
+	<ul>
+		<li>취약유형 분석</li>
+		<li>수준별 교재</li>
+		<li>실시간 학습 확인</li>
+	</ul>
+	</div>
 </body>
 </html>
