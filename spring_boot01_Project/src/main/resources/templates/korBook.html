@@ -3,8 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <title>국어 문제집</title>
+<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+<span class="teamTitle bookTitle" onclick="location.href='mainPage'">문제 뿌셔뿌셔</span>
 	<h1>국어 문제집</h1>
+	<span>1.글을 읽고, 빈칸에 알맞은 낱말을 쓰시오.</span>
+	<br>
+	<img src="img/kor/kor1.png">
+	<br>
+	<span>할머니께서 [ ]을 만들어주셨습니다.</span>
+	<form action="resultBook" method="post">
+		<label for="kor1">1.
+			<input type="radio" name="kor1" value="ho">호떡
+		</label>
+		<br>
+		<label for="kor2">2.
+			<input type="radio" name="kor1" value="chicken">치킨
+		</label>
+		<br>
+		<label for="kor3">3.
+			<input type="radio" name="kor1" value="pizza">피자
+		</label>
+		<br>
+		<input type="submit" value="정답제출">
+		<input type="reset" value="리셋">
+	</form>
 </body>
 </html>

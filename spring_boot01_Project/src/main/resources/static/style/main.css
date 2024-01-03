@@ -10,6 +10,7 @@
 	align-items: center;
 	left: 50px;
 	top: 20px;
+	cursor: pointer;
 }
 .searchForm{
 	margin-top: 80px;

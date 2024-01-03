@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>결과 페이지</title>
+</head>
+<body>
+	<h1>국어 결과</h1>
+	<p th:if="${result == 'ho'}"
+		th:text="'정답입니다!!!'"
+	></p>
+	<p th:if="${result != 'ho'}"
+		th:text="'오답입니다!!!'"
+	></p>
+	
+</body>
+</html>
