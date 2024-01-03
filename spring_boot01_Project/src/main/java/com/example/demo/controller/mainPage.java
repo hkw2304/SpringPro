@@ -6,10 +6,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class mainPage {
-	@RequestMapping(value="/mainPage")
+	@RequestMapping(value="/index")
 	public ModelAndView indexPage() {
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("mainPage");
+		mav.setViewName("index");
 		return mav;
 	}
 	@RequestMapping(value="/searchPage")
